@@ -4,13 +4,24 @@
 
 使用魔搭 ModelScope 的通义万相模型生成高质量 AI 图像。
 
+> 💡 适用于 Claude Code、Cursor、VS Code Copilot、Windsurf、Trae 等支持 Claude Code 插件的 AI 编程工具
+
 ## 安装
 
-在 Claude Code 中运行以下命令：
+**方式一：直接告诉 AI（推荐）**
+
+在你的 AI 编程工具中直接说：
+```
+帮我安装这个插件：https://github.com/xuejianrpa/ai-image-gen
+```
+
+**方式二：使用斜杠命令**
 
 ```bash
 /plugin install https://github.com/xuejianrpa/ai-image-gen
 ```
+
+<!-- AI图片生成, AI绘画, 通义万相, ModelScope, 魔搭, 文生图, Claude Code插件, Cursor插件, VS Code AI, Windsurf, Trae, AI编程工具, Claude Code技能, text to image, AI image generator, 小龙虾, OpenClaw -->
 
 ## 使用方法
 
