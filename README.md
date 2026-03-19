@@ -1,37 +1,39 @@
-# AI 图像生成器插件
+# AI Image Generator Plugin
 
-使用魔搭 ModelScope 的通义万相模型生成高质量 AI 图像。
+[中文](README_CN.md) | English
 
-## 安装
+Generate high-quality AI images using ModelScope's Tongyi Wanxiang (通义万相) model.
 
-在 Claude Code 中运行以下命令：
+## Installation
+
+Run the following command in Claude Code:
 
 ```bash
 /plugin install https://github.com/xuejianrpa/ai-image-gen
 ```
 
-## 使用方法
+## Usage
 
-### 方式一：直接描述想要的图片
+### Method 1: Natural Language
 
-只需用自然语言描述你想要的图片，Claude 会自动识别并调用此技能：
+Simply describe the image you want, and Claude will automatically recognize and invoke this skill:
 
 - "画一张图，一只可爱的猫咪坐在月亮上"
 - "生成一张日落山景的图片"
-- "帮我画一个未来城市"
 - "Generate an image of a sunset over mountains"
+- "Draw me a futuristic city"
 
-### 方式二：使用斜杠命令
+### Method 2: Slash Command
 
 ```
-/ai-image-gen:ai-image-gen <图片描述>
+/ai-image-gen:ai-image-gen <image description>
 ```
 
-## 前置条件
+## Prerequisites
 
-### 1. 配置 API Key
+### 1. Configure API Key
 
-需要设置 ModelScope API Key 环境变量：
+Set the ModelScope API Key environment variable:
 
 ```bash
 # macOS / Linux
@@ -44,54 +46,54 @@ set MODELSCOPE_API_KEY=your-modelscope-api-key
 $env:MODELSCOPE_API_KEY='your-modelscope-api-key'
 ```
 
-获取 API Key：[ModelScope 平台](https://modelscope.cn/)
+Get your API Key from [ModelScope](https://modelscope.cn/)
 
-### 2. 安装 Python 依赖
+### 2. Install Python Dependencies
 
 ```bash
 pip install requests Pillow
 ```
 
-## 可用模型
+## Available Models
 
-| 模型 ID | 说明 |
-|---------|------|
-| `Tongyi-MAI/Z-Image-Turbo` | 快速生成（默认） |
-| `Tongyi-MAI/Z-Image` | 更高质量，速度较慢 |
+| Model ID | Description |
+|----------|-------------|
+| `Tongyi-MAI/Z-Image-Turbo` | Fast generation (default) |
+| `Tongyi-MAI/Z-Image` | Higher quality, slower |
 
-## 使用技巧
+## Tips for Better Results
 
-1. **描述具体**：比如 "一只金毛犬在秋天的落叶中玩耍" 比 "一只狗" 效果更好
-2. **添加风格**：可以指定风格，如 "宫崎骏风格"、"照片级真实"、"油画风格"
-3. **包含细节**：描述光线、氛围、构图、颜色等细节
-4. **使用英文**：模型对英文提示词效果更好，Claude 会自动帮你翻译优化
+1. **Be specific**: "A golden retriever puppy playing in autumn leaves" is better than "a dog"
+2. **Add style**: Specify style like "Studio Ghibli style", "photorealistic", "oil painting"
+3. **Include details**: Describe lighting, mood, composition, colors
+4. **Use English**: The model works better with English prompts; Claude will help translate and optimize
 
-## 示例
+## Example
 
-**用户输入：**
+**User input:**
 > 帮我画一只在月亮上的猫
 
-**Claude 会：**
-1. 优化提示词为英文
-2. 调用生成脚本
-3. 显示生成的图片
-4. 询问是否需要调整
+**Claude will:**
+1. Optimize the prompt to English
+2. Call the generation script
+3. Display the generated image
+4. Ask if adjustments are needed
 
-## 作者
+## Author
 
-**雪见** 📍 四川成都
+**雪见 (Xuejian)** 📍 Chengdu, Sichuan
 
-- 微信：`soraaigc`（欢迎链接）
-- 公众号：**雪见AI编程**（欢迎关注）
+- WeChat: `soraaigc`
+- Official Account: **雪见AI编程**
 
-### 推荐链接
+### Recommended Links
 
-| 平台 | 链接 | 说明 |
-|------|------|------|
-| 知识星球 | https://t.zsxq.com/mC8bP | ⭐ **限时免费** 加入 |
-| AI编程平台 | https://aigocode.com/invite/JHK8VZAQ | 🚀 AI编程 + OpenClaw 必备 |
-| 飞书文档 | https://my.feishu.cn/wiki/XkNawOgzjiK4zektG6dcD4zXnxd | 📚 录播视频 + 文档教程 |
+| Platform | Link | Description |
+|----------|------|-------------|
+| Knowledge Planet | https://t.zsxq.com/mC8bP | ⭐ **Free to join** |
+| AI Coding Platform | https://aigocode.com/invite/JHK8VZAQ | 🚀 AI Coding + OpenClaw |
+| Feishu Docs | https://my.feishu.cn/wiki/XkNawOgzjiK4zektG6dcD4zXnxd | 📚 Video tutorials |
 
-## 许可证
+## License
 
 MIT License
