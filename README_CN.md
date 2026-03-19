@@ -94,6 +94,18 @@ pip install requests Pillow
 | AI编程平台 | https://aigocode.com/invite/JHK8VZAQ | 🚀 AI编程 + OpenClaw 必备 |
 | 飞书文档 | https://my.feishu.cn/wiki/XkNawOgzjiK4zektG6dcD4zXnxd | 📚 录播视频 + 文档教程 |
 
+## 联系我
+
+<p align="center">
+  <img src="assets/wechat.jpg" width="200" alt="微信二维码" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/group.jpg" width="200" alt="AI交流群二维码" />
+</p>
+
+<p align="center">
+  <b>加微信</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>加入AI交流群</b>
+</p>
+
 ## 许可证
 
 MIT License

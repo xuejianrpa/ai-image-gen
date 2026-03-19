@@ -94,6 +94,18 @@ pip install requests Pillow
 | AI Coding Platform | https://aigocode.com/invite/JHK8VZAQ | 🚀 AI Coding + OpenClaw |
 | Feishu Docs | https://my.feishu.cn/wiki/XkNawOgzjiK4zektG6dcD4zXnxd | 📚 Video tutorials |
 
+## Connect with Me
+
+<p align="center">
+  <img src="assets/wechat.jpg" width="200" alt="WeChat QR Code" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/group.jpg" width="200" alt="AI Group QR Code" />
+</p>
+
+<p align="center">
+  <b>Add WeChat</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Join AI Group</b>
+</p>
+
 ## License
 
 MIT License
