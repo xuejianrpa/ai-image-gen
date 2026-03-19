@@ -5,7 +5,7 @@ Generate high-quality AI images using ModelScope's Tongyi Wanxiang (通义万相
 ## Installation
 
 ```bash
-/plugin install <your-github-repo-url>
+/plugin install https://github.com/xuejianrpa/ai-image-gen
 ```
 
 ## Usage
