@@ -1,0 +1,6 @@
+{
+  "name": "ai-image-gen",
+  "version": "1.0.0",
+  "description": "Generate AI images using ModelScope's Tongyi Wanxiang (通义万相) model. Use this skill whenever you want to generate an image, create a picture, draw something, or mentions AI image generation.",
+  "author": "雪见"
+}
